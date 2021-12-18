@@ -27,9 +27,9 @@ public class MasksHelper {
         put("FOREHEAD_RIGHT", new Float[] {-0.02f, 0.050f, 0.05f}); // FOREHEAD_RIGHT
         put("FOREHEAD_LEFT", new Float[] {0.025f, 0.050f, 0.05f}); // FOREHEAD_LEFT
         put("NOSE", new Float[] {0.00f, -0.007f, 0.06f}); // NOSE
-        put("MOUTH", new Float[] {-0.05f, 0.045f, 0.06f}); // MOUTH
-        put("MUSTACHE", new Float[] {-0.05f, 0.045f, 0.06f}); // MUSTACHE
-        put("EYES", new Float[] {-0.05f, 0.045f, 0.06f}); // EYES
+//        put("MOUTH", new Float[] {-0.05f, 0.045f, 0.06f}); // MOUTH
+//        put("MUSTACHE", new Float[] {-0.05f, 0.045f, 0.06f}); // MUSTACHE
+//        put("EYES", new Float[] {-0.05f, 0.045f, 0.06f}); // EYES
     }};
 
     public enum Positions {
@@ -56,25 +56,25 @@ public class MasksHelper {
             public String toString() {
                 return "NOSE";
             }
-        },
-        MOUTH {
-            @Override
-            public String toString() {
-                return "MOUTH";
-            }
-        },
-        MUSTACHE {
-            @Override
-            public String toString() {
-                return "MUSTACHE";
-            }
-        },
-        EYES {
-            @Override
-            public String toString() {
-                return "EYES";
-            }
         }
+//        MOUTH {
+//            @Override
+//            public String toString() {
+//                return "MOUTH";
+//            }
+//        },
+//        MUSTACHE {
+//            @Override
+//            public String toString() {
+//                return "MUSTACHE";
+//            }
+//        },
+//        EYES {
+//            @Override
+//            public String toString() {
+//                return "EYES";
+//            }
+//        }
     }
     private final List<float[]> tempSquareMatrixList = new ArrayList<>();
     public MasksHelper(){

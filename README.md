@@ -77,7 +77,7 @@ Intent intent = new Intent(this, AugmentedFacesActivity.class);
 startActivity(intent);
 ```
 
-## Теперь вы готовы увидеть конфиг из данного приложение
+## Теперь вы готовы увидеть конфиг из данного приложения
 
 ```
 private void initMasksConfig() {

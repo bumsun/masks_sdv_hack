@@ -9,7 +9,7 @@ Google AR Core - библиотека для дополненной реальн
 ![Google AR Core Face Landmarks](https://github.com/bumsun/masks_sdv_hack/blob/main/images/augmented-faces-468-point-face-mesh.png?raw=true)
 
 Это позволяет на поверхность лица накладывать любые картинки или 3D модели.
-![Google AR Core Augmented Faces](https://github.com/bumsun/masks_sdv_hack/blob/main/images/photo_fox.jpeg?raw=true)
+![Google AR Core Augmented Faces](https://github.com/bumsun/masks_sdv_hack/blob/main/images/photo_fox.jpg?raw=true)
 
 ## Зачем нужна библиотека если гугл итак все сделал?
 Гугл все сделал. Но для разработчиков, которые хотят получить быстрый результат нужно потраить не мало времени для освоение API и для каких не стандартных случаев в руководстве недостаточно примеров и объяснений.  
@@ -40,7 +40,7 @@ Intent intent = new Intent(this, AugmentedFacesActivity.class);
 startActivity(intent);
 ```
 В итоге на экране будет такая маска
-![Google AR Core Augmented Faces](https://github.com/bumsun/masks_sdv_hack/blob/main/images/photo_deer.jpeg?raw=true)
+![Google AR Core Augmented Faces](https://github.com/bumsun/masks_sdv_hack/blob/main/images/photo_deer.jpg?raw=true)
 
 ## Более подробно про создание конфига
 

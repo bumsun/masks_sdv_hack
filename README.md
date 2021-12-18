@@ -39,7 +39,7 @@ MaskConfig.setInstance(maskConfig);
 Intent intent = new Intent(this, AugmentedFacesActivity.class);
 startActivity(intent);
 ```
-В итоге на экране будет такая маска
+В итоге на экране будет такая маска  
 ![Google AR Core Augmented Faces](https://github.com/bumsun/masks_sdv_hack/blob/main/images/photo_deer.jpg?raw=true)
 
 ## Более подробно про создание конфига

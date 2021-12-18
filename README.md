@@ -119,7 +119,7 @@ private void initMasksConfig() {
 
 ## Объяснение работы с ".obj" файлами
 Это формат для хранения 3D объектов.
-В идеале с ними работать в профессиональном пакете вроде [blender](https://www.blender.org)
+В идеале с ними работать в профессиональном пакете вроде [blender](https://www.blender.org).
 Но если у вас слабый ноут или вы не хотите тратить лишние деньги на такие программы, тогда есть онлайн решение:
 + [threejs.org](https://threejs.org/editor) 
 ![Free 3D editor](https://github.com/bumsun/masks_sdv_hack/blob/main/images/3d_editor.jpeg?raw=true)

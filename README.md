@@ -6,10 +6,10 @@ Google AR Core - библиотека для дополненной реальн
 
 Она умеет сегментировать 468 точек и создавать поверхность лица.
 
-[Google AR Core Face Landmarks](https://github.com/bumsun/masks_sdv_hack/blob/main/app/augmented-faces-468-point-face-mesh.png)
+[Google AR Core Face Landmarks](https://github.com/bumsun/masks_sdv_hack/blob/main/images/augmented-faces-468-point-face-mesh.png)
 
 Это позволяет на поверхность лица накладывать любые картинки или 3D модели.
-[Google AR Core Augmented Faces](https://github.com/bumsun/masks_sdv_hack/blob/main/app/photo_fox.jpeg)
+[Google AR Core Augmented Faces](https://github.com/bumsun/masks_sdv_hack/blob/main/images/photo_fox.jpeg)
 
 ## Зачем нужна библиотека если гугл итак все сделал?
 Гугл все сделал. Но для разработчиков, которые хотят получить быстрый результат нужно потраить не мало времени для освоение API и для каких не стандартных случаев в руководстве недостаточно примеров и объяснений.  
@@ -40,7 +40,7 @@ Intent intent = new Intent(this, AugmentedFacesActivity.class);
 startActivity(intent);
 ```
 В итоге на экране будет такая маска
-[Google AR Core Augmented Faces](https://github.com/bumsun/masks_sdv_hack/blob/main/app/photo_deer.jpeg)
+[Google AR Core Augmented Faces](https://github.com/bumsun/masks_sdv_hack/blob/main/images/photo_deer.jpeg)
 
 ## Более подробно про создание конфига
 
@@ -123,7 +123,8 @@ private void initMasksConfig() {
 В идеале с ними работать в профессиональном пакете вроде [blender](https://www.blender.org)
 Но если у вас слабый ноут или не хотите тратить лишние деньги на такие программы, то есть онлайн решение:
 + [threejs.org](https://threejs.org/editor) 
-[Free 3D editor](https://github.com/bumsun/masks_sdv_hack/blob/main/app/3d_editor.jpeg)
+[Free 3D editor](https://github.com/bumsun/masks_sdv_hack/blob/main/images/3d_editor.jpeg)
+
 Рекомендую в этот редактор позагружать файлы из этого проекта, подвигать их по разным осям и помасштабировать.
 Так вы сможете довольно хорошо настроить свою 3D модель под ваши потребности.
 

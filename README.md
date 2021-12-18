@@ -33,7 +33,6 @@ List<String[][]> maskConfig = new ArrayList<>();
 maskConfig.add(mask1);
 MaskConfig.setInstance(maskConfig);
 ```
-Этот код описывает конфиг для одной маски
 2. Запуск экрана с выводом изображения с фронтальной камеры и накладывание маски в реальном времени:
 ```
 Intent intent = new Intent(this, AugmentedFacesActivity.class);

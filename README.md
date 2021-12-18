@@ -17,7 +17,7 @@ Google AR Core - библиотека для дополненной реальн
 ## Как же пользоваться данной библиотекой?
 + На всякий случай можете проверить [список поддерживаемых устройств](https://developers.google.com/ar/devices#google_play) на наличие поддержки вашим устройством Google AR Core. 
 + [Скачайте apk файл](https://github.com/bumsun/masks_sdv_hack/blob/main/app/release/app-release.apk), чтобы посмотреть на возможности и качество масок. Если по какой-то причине приложение не запускается, то попробуйте установить [Google Play Services for AR](https://play.google.com/store/apps/details?id=com.google.ar.core&hl=en)
-+ Если вас все устраивает, то склонировать и запустить проект в [Android Studio](https://developer.android.com/studio).
++ Если вас все устраивает, тогда склонируйте и запустите проект в [Android Studio](https://developer.android.com/studio).
 
 ## Api библиотеки
 

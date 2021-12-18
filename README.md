@@ -18,7 +18,7 @@ Google AR Core - библиотека для дополненной реальн
 ## Как же пользоваться данной библиотекой?
 + Во первых вам нужно [скачать apk файл](https://github.com/bumsun/masks_sdv_hack/blob/main/app/release/app-release.apk)
 и посмотреть на возможности и качество масок.
-+ Если вас все устраивает, то склонировать и запустить проект в Android Studio.
++ Если вас все устраивает, то склонировать и запустить проект в [Android Studio](https://developer.android.com/studio).
 
 ## Api библиотеки
 

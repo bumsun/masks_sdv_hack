@@ -37,6 +37,10 @@ public class StartActivity extends AppCompatActivity {
         String[] mask2part2 = {"models/part_cap.png", MasksHelper.Positions.FOREHEAD.toString(),"2.4", "models/flat_square2.obj"};
         String[][] mask2 = {mask2part1,mask2part2};
 
+        String[] mask2_1part1 = {"models/cap_duck5.png",MasksHelper.Positions.FOREHEAD.toString(),"2", "models/flat_square4.obj"} ;
+//        String[] mask2part2 = {"models/part_cap.png"};
+        String[][] mask2_1 = {mask2_1part1};
+
         String[] mask3part1 = {"models/nose_fox.png",MasksHelper.Positions.NOSE.toString(),"1", "models/nose_fox.obj"} ;
         String[] mask3part2 = {"models/ear_fox.png",MasksHelper.Positions.FOREHEAD_RIGHT.toString(),"1", "models/forehead_right.obj"} ;
         String[] mask3part3 = {"models/ear_fox.png",MasksHelper.Positions.FOREHEAD_LEFT.toString(),"1", "models/forehead_left.obj"} ;
@@ -59,6 +63,8 @@ public class StartActivity extends AppCompatActivity {
 
         maskConfig.add(mask1);
         maskConfig.add(mask2);
+        maskConfig.add(mask2_1);
+
         maskConfig.add(mask3);
         maskConfig.add(mask4);
         maskConfig.add(mask5);

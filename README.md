@@ -113,7 +113,6 @@ private void initMasksConfig() {
     maskConfig.add(mask1);
     maskConfig.add(mask2);
     maskConfig.add(mask2_1);
-
     maskConfig.add(mask3);
     maskConfig.add(mask4);
     maskConfig.add(mask5);

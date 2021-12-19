@@ -6,7 +6,8 @@
 [![Видео](https://yt-embed.herokuapp.com/embed?v=OdELhcMuF04)](https://www.youtube.com/watch?v=OdELhcMuF04 "Видео")
 
 ## Что под капотом?
-Google AR Core - библиотека для дополненной реальности от Google.
+[Google AR Core](https://developers.google.com/ar/develop/java/quickstart) - библиотека для дополненной реальности от Google.
+
 
 Она умеет сегментировать 468 точек и создавать поверхность лица.
 

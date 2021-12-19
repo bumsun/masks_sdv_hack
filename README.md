@@ -83,8 +83,14 @@ private void initMasksConfig() {
     String[] mask1part1 = {"models/3_deer_horns.png", MasksHelper.Positions.FOREHEAD.toString(),"2.4", "models/flat_square.obj"} ;
     String[][] mask1 = {mask1part1};
 
-    String[] mask2part1 = {"models/cap_ducs.png",MasksHelper.Positions.FOREHEAD.toString(),"2.1", "models/flat_square2.obj"} ;
-    String[][] mask2 = {mask2part1};
+    String[] mask2part1 = {"models/cap_ducs.png",MasksHelper.Positions.FOREHEAD.toString(),"1", "models/cap3.obj"} ;
+//        String[] mask2part2 = {"models/part_cap.png"};
+    String[] mask2part2 = {"models/part_cap.png", MasksHelper.Positions.FOREHEAD.toString(),"2.4", "models/flat_square2.obj"};
+    String[][] mask2 = {mask2part1,mask2part2};
+
+    String[] mask2_1part1 = {"models/cap_duck5.png",MasksHelper.Positions.FOREHEAD.toString(),"2", "models/flat_square4.obj"} ;
+//        String[] mask2part2 = {"models/part_cap.png"};
+    String[][] mask2_1 = {mask2_1part1};
 
     String[] mask3part1 = {"models/nose_fox.png",MasksHelper.Positions.NOSE.toString(),"1", "models/nose_fox.obj"} ;
     String[] mask3part2 = {"models/ear_fox.png",MasksHelper.Positions.FOREHEAD_RIGHT.toString(),"1", "models/forehead_right.obj"} ;
@@ -108,6 +114,8 @@ private void initMasksConfig() {
 
     maskConfig.add(mask1);
     maskConfig.add(mask2);
+    maskConfig.add(mask2_1);
+
     maskConfig.add(mask3);
     maskConfig.add(mask4);
     maskConfig.add(mask5);

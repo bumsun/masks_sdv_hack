@@ -3,7 +3,6 @@
 Была написана библиотека, которая позволяет легко и быстро встроить в любое приложение поддержку масок в реальном времени.
 
 
-[![Everything Is AWESOME](https://yt-embed.herokuapp.com/embed?v=StTqXEQ2l-Y)](https://www.youtube.com/watch?v=StTqXEQ2l-Y "Everything Is AWESOME")
 [![Видео](https://yt-embed.herokuapp.com/embed?v=OdELhcMuF04)](https://www.youtube.com/watch?v=OdELhcMuF04 "Видео")
 
 ## Что под капотом?

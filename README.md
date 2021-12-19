@@ -28,7 +28,7 @@
 
 Всю работу библиотеки можно разбить на 2 части.  
 1. Создание конфига:
-```
+```java
 //Этот код описывает конфиг для одной маски
 String[] mask1part1 = {"models/3_deer_horns.png", MasksHelper.Positions.FOREHEAD.toString(),"2.4", "models/flat_square.obj"} ;
 String[][] mask1 = {mask1part1};
@@ -38,7 +38,7 @@ maskConfig.add(mask1);
 MaskConfig.setInstance(maskConfig);
 ```
 2. Запуск экрана с выводом изображения с фронтальной камеры и накладывание маски в реальном времени:
-```
+```java
 Intent intent = new Intent(this, AugmentedFacesActivity.class);
 startActivity(intent);
 ```
@@ -48,34 +48,34 @@ startActivity(intent);
 ## Более подробно про создание конфига
 
 1. Для описание бесконечного количества масок используется тройная вложенность.
-```
+```java
 List<String[][]> maskConfig = new ArrayList<>();
 ```
 
 2. Первая вложенность описывает первую часть первой маски. Например здесь это рога
-```
+```java
 String[] mask1part1 = {"models/3_deer_horns.png", MasksHelper.Positions.FOREHEAD.toString(),"2.4", "models/flat_square.obj"}
 ```
 
 3. Название параметров
-```
+```java
 String[] mask1part1 = {"Пусть к иозображению (Обязательно)", "Позиционирование (Не обязательно, по дефолту 0)","Масштаб (Не обязательно, по дефолту 1)", "Пусть к 3D модели объекта (не обязательно)"}
 ```
 
 4. Дальше из таких элементов формируется 1 более сложная маска.
-```
+```java
 String[][] mask1 = {mask1part1,mask1part2};
 
 ```
 
 5. Затем различные маски добавляем в архив
-```
+```java
 maskConfig.add(mask1);
 maskConfig.add(mask2);
 ```
 
 6. Наконец, чтобы это все могло рисоваться в реальном времени, нужно сохранить конфиг и запустить экран с камерой.
-```
+```java
 MaskConfig.setInstance(maskConfig);
 Intent intent = new Intent(this, AugmentedFacesActivity.class);
 startActivity(intent);
@@ -83,7 +83,7 @@ startActivity(intent);
 
 ## Теперь вы готовы увидеть конфиг из данного приложения
 
-```
+```java
 private void initMasksConfig() {
     String[] mask1part1 = {"models/3_deer_horns.png", MasksHelper.Positions.FOREHEAD.toString(),"2.4", "models/flat_square.obj"} ;
     String[][] mask1 = {mask1part1};
